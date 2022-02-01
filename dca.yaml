@@ -1,0 +1,11 @@
+name: dca
+
+dependencies:
+ - python=3.9
+ - matplotlib
+ - numba
+ - numpy
+ - scipy
+ - biopython
+ - ipykernel
+ - requests
