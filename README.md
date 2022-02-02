@@ -1,6 +1,6 @@
 # DCA Workshop
 
-This is the almost-entirely python version of the DCA Workshop, done in a (hopefully) platform agnostic way.
+This is the almost-entirely python version of the DCA Workshop, done in a platform agnostic way.
 
 ## Installation
 
