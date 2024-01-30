@@ -8,6 +8,7 @@ You will need to install a few things before starting:
 1. Anaconda3/Miniconda3
 2. python-mfdca
 3. HMMER
+4. Easel
 
 **If you are on Windows, you will also need to download the Ubuntu filesystem from the App Store to use HMMER.**
 
@@ -47,5 +48,9 @@ To install Ubuntu on Windows:
       * Open the Windows Ubuntu application, and it should open a text terminal.
       * Enter this command ```sudo apt install hmmer``` into the terminal and hit enter. Troubleshoot help should be in the installation guide.
       * Now you should be able to run the command hmmscan by typing the command ```hmmscan``` and hitting enter. If you see the help text for the software, then installation was successful.
-      
+4. Installing Easel
+    * Installation guide [is here](https://github.com/EddyRivasLab/easel).
+    * Same as for HMMER, on Windows this software should be installed under Ubuntu filesystem/Windows Subsystem Linux.
+    * The primary tool from this package will be located here: yourcomputer/easel/bin/esl-reformat
+
 Now that you have the necessary files, you should be able to run the notebook. Make sure to edit the path to your HMMER installation; if it is installed so you can run it from any folder then no changes are needed. Otherwise, point the hmmer_path variable to the install hmmer/bin directory.
